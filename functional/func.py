@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Docstring for the file
-"""
 import collections
 
 Scientist = collections.namedtuple('Scientist', [
@@ -22,4 +18,5 @@ scientists = (
 )
 
 nobel_only = tuple(filter(lambda x: x.nobel is True, scientists))
+
 print(nobel_only)
