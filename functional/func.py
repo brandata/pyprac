@@ -18,5 +18,4 @@ scientists = (
 )
 
 nobel_only = tuple(filter(lambda x: x.nobel is True, scientists))
-
 print(nobel_only)
